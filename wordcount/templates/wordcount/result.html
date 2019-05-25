@@ -1,5 +1,20 @@
+<style>
+@font-face { 
+	font-family: 'locus_sangsang'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff'); 
+	font-weight: normal; font-style: normal; }
+	
+    body{
+        text-align:center;
+        font-family: 'locus_sangsang'; 
+        background-color:#F8C7D2;
+        font-size:30px;
+    }
+</style>
+<body>
 원문 : {{total}}<br><br>
 단어 카운트 <br><br>
 {% for word, num in dic %}
 {{word}}:{{num}}<br>
 {% endfor %}
+</body>
